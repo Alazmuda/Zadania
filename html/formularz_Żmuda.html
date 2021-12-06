@@ -1,7 +1,9 @@
 ﻿<!DOCTYPE html>
 
+<html>
+
 <html lang="pl-PL">
-    
+
 <html>
 
 <head>
@@ -10,12 +12,189 @@
 </head>
 
 <body style="background-color:gray">
-    <h1 style="text-align:center; color:red">Ankieta - muzyka</h1>
-    <hr style="text-align:center; color:blue; width:100%; size: 3;">
-    <iframe width=300 height=200 frameborder=0 src="dane">Dane osobowe</iframe>
-    
-    
-    
+
+    <h1 style="text-align:center; color:maroon">Ankieta - muzyka</h1>
+    <hr style="border-color:olivedrab; width:100%; size: 3;">
+
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><b>Dane osobowe</b></legend>
+                        <table style="width:300px">
+                            <tr>
+                                <td><label for="Imie">Imię:</label></td>
+                                <td><input id="Imie" type=”text” name=”Imie” size=”25” maxlength=”50”></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Nazwisko">Nazwisko:</label></td>
+                                <td><input id="Nazwisko" type=”text” name=”Nazwisko” size=”25” maxlength=”50”></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Adres_e-mail">Adres e-mail:</label></td>
+                                <td><input id="Adres_e-mail" type=”text” name=”Adres_e-mail” size=”25” maxlength=”50”></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Miasto">Miasto:</label></td>
+                                <td><input id="Miasto" type=”text” name=”Miasto” size=”25” maxlength=”50”></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Wiek">Wiek:</label></td>
+                                <td><select name=”Wiek”>
+                                        <option>poniżej 18 lat</option>
+                                        <option>18-26 lat</option>
+                                        <option>27-35 lat</option>
+                                        <option>powyżej 36 lat</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Płeć">Płeć:</label></td>
+                                <td><input id="Płeć" type="radio" name="Płeć" value="mężczyzna" />mężczyzna<br>
+                                    <input id="Płeć" type="radio" name="Płeć" value="kobieta" />kobieta<br>
+                                    <input id="Płeć" type="radio" name="Płeć" value="inne" />inne<br></td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </td>
+                <td>
+                    <table style="width:750px">
+                        <tr>
+                            <td colspan="4">
+                                1. Jaki jest twój ulubiony gatunek muzyki?
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><input type="checkbox" name="pytanie_1" value="Metal" />Metal</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Rock" />Rock</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Rap" />Rap</label>
+                            </td>
+                            <td>
+                                <label><input type="checkbox" name="pytanie_1" value="Pop" />Pop</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Regge" />Regge</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Funk" />Funk</label>
+                            </td>
+                            <td>
+                                <label><input type="checkbox" name="pytanie_1" value="Disco" />Disco</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Classical" />Classical</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Jazz" />Jazz</label>
+                            </td>
+                            <td>
+                                <label><input type="checkbox" name="pytanie_1" value="Muz. filmowa" />Muz. filmowa</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Country" />Country</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Inne" />Inne</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                2. Jakie są twoje ulubione utwory/zespoły muzyczne?
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <textarea style="width: 300px; height: 117px" name="pytanie_2"></textarea><br>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <table style="width:600px">
+                        <tr>
+                            <td colspan="4">
+                                3. Jakiego gatunku muzyki <b>nie</b> lubisz?
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><input type="checkbox" name="pytanie_1" value="Metal" />Metal</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Rock" />Rock</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Rap" />Rap</label>
+                            </td>
+                            <td>
+                                <label><input type="checkbox" name="pytanie_1" value="Pop" />Pop</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Regge" />Regge</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Funk" />Funk</label>
+                            </td>
+                            <td>
+                                <label><input type="checkbox" name="pytanie_1" value="Disco" />Disco</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Classical" />Classical</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Jazz" />Jazz</label>
+                            </td>
+                            <td>
+                                <label><input type="checkbox" name="pytanie_1" value="Muz. filmowa" />Muz. filmowa</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Country" />Country</label><br>
+                                <label><input type="checkbox" name="pytanie_1" value="Inne" />Inne</label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    4. Wolisz zagraniczną czy polską muzykę?<br>
+                    <label><input type="radio" name="pytanie_4" value="Polską" />Polską</label><br>
+                    <label><input type="radio" name="pytanie_4" value="Zagraniczną" />Zagraniczną</label><br>
+                    <label><input type="radio" name="pytanie_4" value="Lubię obie" />Lubię obie</label>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table style="width:1050px">
+            <tr>
+                <td>
+                    <label for="pytanie_5">5. Kto jest twoim ulubionym wokalistą/członkiem zespołu?</label><br>
+                    <textarea id="pytanie_5" style="width: 300px; height: 117px" name="pytanie_5"></textarea>
+                </td>
+                <td style="vertical-align: top;">
+                    6. Czy obserwujesz swoich idoli na social mediach? Jeśli tak to na jakich?<br>
+                    <label><input type="checkbox" name="pytanie_6" value="Facebook" />Facebook</label><br>
+                    <label><input type="checkbox" name="pytanie_6" value="Instagram" />Instagram</label><br>
+                    <label><input type="checkbox" name="pytanie_6" value="Twitter" />Twitter</label><br>
+                    <label><input type="checkbox" name="pytanie_6" value="Inne" />Inne</label><br>
+                </td>
+            </tr>
+        </table>
+        <table style="width:800px">
+            <tr>
+                <td>
+                    7. Czy muzyka pomaga Ci się zrelaksować?<br>
+                    <label><input type="radio" name="pytanie_7" value="Tak" />Tak</label><br>
+                    <label><input type="radio" name="pytanie_7" value="Nie" />Nie</label><br><br> 8. Czy lubisz chodzić na koncerty/imprezy?<br>
+                    <label><input type="radio" name="pytanie_8" value="Tak" />Tak</label><br>
+                    <label><input type="radio" name="pytanie_8" value="Nie" />Nie</label><br>
+                    <br>
+                    <label for="pytanie_9">9. Czy grasz na jakimś instrumencie? Jeśli tak, to na jakim?</label><br>
+                    <textarea id="pytanie_9" style="width: 300px; height: 117px" name="pytanie_9"></textarea>
+                    <br><br> 10. Czy lubisz śpiewać?<br>
+                    <label><input type="radio" name="pytanie_10" value="Tak" />Tak</label><br>
+                    <label><input type="radio" name="pytanie_10" value="Nie" />Nie</label><br>
+                </td>
+                <td>
+                    11. Jak często słuchasz muzyki?<br>
+                    <label><input type="radio" name="pytanie_11" value="Bardzo często" />Bardzo często</label><br>
+                    <label><input type="radio" name="pytanie_11" value="Często" />Często</label><br>
+                    <label><input type="radio" name="pytanie_11" value="Średnio" />Średnio</label><br>
+                    <label><input type="radio" name="pytanie_11" value="Rzadko" />Rzadko</label><br>
+                    <label><input type="radio" name="pytanie_11" value="Prawie wcale" />Prawie wcale</label><br>
+                    <br><br><br> 12. Na czym najczęściej słuchasz muzyki?<br>
+                    <label><input type="checkbox" name="pytanie_12" value="Telefon/słuchawki" />Telefon/słuchawki</label><br>
+                    <label><input type="checkbox" name="pytanie_12" value="Radio" />Radio</label><br>
+                    <label><input type="checkbox" name="pytanie_12" value="Telewizja" />Telewizja</label><br>
+                    <label><input type="checkbox" name="pytanie_12" value="Odtwarzacz płyt CD" />Odtwarzacz płyt CD</label><br>
+                    <label><input type="checkbox" name="pytanie_12" value="Odtwarzacz płyt winylowych" />Odtwarzacz płyt winylowych</label><br>
+                </td>
+            </tr>
+        </table><br><br>
+
+        <input type="submit" value="Wyślij">
+        <input type="reset" name="Wyczyść">
+    </form>
+
     <A HREF="../index.html">wróć</A>
 </body>
 
